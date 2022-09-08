@@ -14,6 +14,7 @@ fun main(){
     val formulaKelvin= {ini:Double -> ini-273.15}
     val formulaFahrenheit= {ini:Double -> (((5.0/9.0)*(ini-32))+273.15)}
 
+    //Impresiones
     printFinalTemperature(valorCelius, celsius, fahrenheit, formulaCelius)
     printFinalTemperature(valorKelvin, kelvin, celsius, formulaKelvin)
     printFinalTemperature(valorFahrenheit, fahrenheit, kelvin, formulaFahrenheit)
